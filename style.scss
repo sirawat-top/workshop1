@@ -1,0 +1,49 @@
+
+body
+{
+    background: #000;
+    font-family: 'Poppins', sans-serif;
+}
+.container
+{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: 100%;
+    margin: 40px 0 0 200px;
+    
+}
+.input-contianer
+{
+    width: 50%;
+    border: 1px solid gray;
+    margin-right: 3px;
+    p{
+        margin-left: 10px;
+    }
+    input{
+        margin-left: 10px;
+        margin-bottom: 5px;
+    }
+    button{
+        border-radius: 10px;
+        border: none;
+        margin-left: 20px;
+    }
+    background: linear-gradient(45deg,#ffbc00,#ff0058);
+}
+.show-contaienr
+{
+    width: 50%;
+    border: 1px solid gray;
+    background: linear-gradient(315deg,#4dff03,#00d0ff);
+}
+.row{
+    display: flex;
+    margin-left: 10px;
+    margin-top: 5px;
+    p{
+        margin-top: 21px;
+        margin-left: 5px;
+    }
+}
